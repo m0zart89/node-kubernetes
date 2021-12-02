@@ -1,1 +1,1 @@
-Project code for tutorial on how to deploy a single-instance Node.js application with a MongoDB database to a DigitalOcean Kubernetes cluster: https://www.digitalocean.com/community/tutorials/how-to-migrate-a-docker-compose-workflow-to-kubernetes
+Project code for tutorial on how to develop a Node.js/MongoDB application using Docker Compose: https://www.digitalocean.com/community/tutorials/containerizing-a-node-js-application-for-development-with-docker-compose
