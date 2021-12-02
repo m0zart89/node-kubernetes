@@ -53,7 +53,15 @@ secret/mongo-secret created
 
 ```
 
-5) minikube dashboard --url #run in second terminal window
+5) minikube service nodejs --url
+
+```
+mozart89@mozart89-MS-7C39:~/repos/node_project$ minikube service nodejs --url
+http://192.168.59.104:31556
+
+```
+
+6) minikube dashboard
 
 ```
 mozart89@mozart89-MS-7C39:~$ minikube dashboard
@@ -65,10 +73,3 @@ Opening in existing browser session.
 [258816:258816:0100/000000.972445:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
 ```
 
-6) minikube service nodejs --url
-
-```
-mozart89@mozart89-MS-7C39:~/repos/node_project$ minikube service nodejs --url
-http://192.168.59.104:31556
-
-```
